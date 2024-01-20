@@ -2,7 +2,7 @@ local entry_display = require("telescope.pickers.entry_display")
 local utils = require("telescope.utils")
 local strings = require("plenary.strings")
 local make_entry = require("telescope.make_entry")
-local config = require("config").options
+local config = require("toggleterm-manager.config").options
 
 local M = {}
 

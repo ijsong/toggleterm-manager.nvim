@@ -32,7 +32,7 @@ local M = {}
 --- Entry point. Opens a telescope picker.
 --- @param opts table The options for the picker.
 M.open = function(opts)
-	local config = require("config").options
+	local config = require("toggleterm-manager.config").options
 	-- set origin window, which will need to be retrieved in some actions (actions/init.lua)
 	require("toggleterm.ui").set_origin_window()
 

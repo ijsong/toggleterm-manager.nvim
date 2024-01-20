@@ -10,7 +10,7 @@ require("telescope").load_extension("toggleterm_manager")
 M.actions = require("lib.actions")
 M.open = require("lib.telescope").open
 M.setup = function(opts)
-	require("config").setup(opts)
+	require("toggleterm-manager.config").setup(opts)
 end
 M.utils = require("lib.utils")
 

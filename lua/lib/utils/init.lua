@@ -90,7 +90,7 @@ end
 --- @param cur_row_term_id number|nil The id of the current terminal to find.
 --- @return function, number A new finder function and the row number of the current terminal.
 function M.create_finder(cur_row_term_id)
-	local config = require("config").options
+	local config = require("toggleterm-manager.config").options
 	local terms, entry_maker_opts = M.get_terminals()
 
 	local new_row_num
